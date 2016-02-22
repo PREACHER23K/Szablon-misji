@@ -294,7 +294,7 @@
 	
 	// Podstawowe mundury
 	// Elementy wyposarzenia są losowo wybierane z listy
-	_baseUniform = ["U_I_G_resistanceLeader_F", "U_BG_Guerilla2_2", "U_BG_Guerilla2_1", "U_BG_Guerilla2_3", "rhs_uniform_FROG01_m81", "U_Rangemaster", "U_C_Journalist", ];
+	_baseUniform = ["U_I_G_resistanceLeader_F", "U_BG_Guerilla2_2", "U_BG_Guerilla2_1", "U_BG_Guerilla2_3", "rhs_uniform_FROG01_m81", "U_Rangemaster", "U_C_Journalist"];
 	_baseHelmet = ["min_rf_bandana_olive", "usm_bdu_boonie_wdl", "usm_bdu_8point_wdl",  "H_Booniehat_khk_hs", "rhsusf_bowman_cap", "CUP_H_PMC_Cap_PRR_Tan", "CUP_H_PMC_Cap_PRR_Grey", "min_rf_beanie_black", "CUP_H_PMC_EP_Headset", "CUP_H_PMC_PRR_Headset", "H_Cap_headphones", "usm_bdu_8point_wdl", "rhs_Booniehat_m81", "H_Cap_police", "H_Cap_usblack", "CUP_H_NAPA_Fedora", "usm_helmet_pasgt_g_w", "usm_helmet_pasgt_w"];
 	_baseGlasses = [];
 	
@@ -311,7 +311,7 @@
 	
 	// Pilot
 	_pilotUniform = ["CUP_U_C_Pilot_01", "U_BG_Guerilla2_1"];
-	_pilotHelmet = ["rhs_gssh18", "CUP_H_PMC_EP_Headset",];
+	_pilotHelmet = ["rhs_gssh18", "CUP_H_PMC_EP_Headset"];
 	_pilotRig = ["CUP_V_B_PilotVest", "V_TacVest_blk_POLICE"];
 	_pilotGlasses = [];
 	
