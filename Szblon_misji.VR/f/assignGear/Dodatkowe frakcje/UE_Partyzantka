@@ -101,9 +101,9 @@
 	// Bronie
 	
 	// Podstawowa broń (dla przykładowo: Amunicyjny MMG, Amunicyjny RKM, Amunicyjny MAT,Strzelec)
-	_rifle = "rhs_weap_akms";
-	_riflemag = "rhs_30Rnd_762x39mm";
-	_riflemag_tr = "rhs_30Rnd_762x39mm";
+	_rifle = "CUP_arifle_L85A2";
+	_riflemag = "30Rnd_556x45_Stanag";
+	_riflemag_tr = "30Rnd_556x45_Stanag_Tracer_Red";
 	
 	// Broń wersja "krótka" (dla przykładowo: Medyk, Strzelec (AT), Strzelec MAT)
 	_carbine = "CUP_arifle_G36C";
@@ -253,9 +253,9 @@
 	_RATmag = "BWA3_Pzf3_IT";
 	
 	// Strzelec MAT
-	_MAT = "PSZ_RPG7V";
-	_MATmag1 = "PSZ_PG7V_HEAT";
-	_MATmag2 = "PSZ_PG7VR_THEAT";
+	_MAT = "CUP_launch_MAAWS";
+	_MATmag1 = "CUP_MAAWS_HEAT_M";
+	_MATmag2 = "CUP_MAAWS_HEDP_M";
 	
 	// Strzelec AA
 	_SAM = "CUP_launch_FIM92Stinger";
@@ -305,12 +305,12 @@
 	
 	// Siły specjalne
 	_diverUniform =  ["BWA3_Uniform3_idz_Tropen", "BWA3_Uniform_idz_Tropen"];
-	_diverHelmet = ["BWA3_OpsCore_Tropen_Camera","BWA3_OpsCore_Tropen_Patch", "BWA3_OpsCore_Tropen"];
+	_diverHelmet = ["BWA3_OpsCore_Tropen_Camera", "BWA3_OpsCore_Tropen_Patch", "BWA3_OpsCore_Tropen"];
 	_diverRig = ["BWA3_Vest_Medic_Tropen", "BWA3_Vest_Leader_Tropen"];
 	_diverGlasses = [];
 	
 	// Pilot
-	_pilotUniform = ["CUP_U_C_Pilot_01", "BWA3_Uniform_Helipilot", ];
+	_pilotUniform = ["CUP_U_C_Pilot_01", "BWA3_Uniform_Helipilot"];
 	_pilotHelmet = ["rhs_gssh18", "CUP_H_PMC_EP_Headset", "PSZ_H_THL5"];
 	_pilotRig = ["CUP_V_B_PilotVest", "UK3CB_BAF_V_Pilot_A"];
 	_pilotGlasses = [];
