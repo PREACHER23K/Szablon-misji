@@ -71,7 +71,7 @@
 	
 	_scope1 = "BWA3_optic_RSAS";			// Aimpoint (Bw)
 	_scope2 = "CUP_optic_CompM2_Black";		// Aimpoint (CUP)
-	_scope3 = "";							// Celownik snajperski 6.5-20x
+	_scope3 = ""rhs_acc_pso1m2"";							// Celownik snajperski 6.5-20x
 	_scope4 = "CUP_optic_CompM2_Desert";	// Celownik SF
 	
 	_bipod1 = "";							// 
@@ -126,7 +126,7 @@
 	// Broń z granatnikiem (dla dowóców)
 	_glrifle = "rhs_weap_akm_gp25";
 	_glriflemag = "rhs_30Rnd_762x39mm";
-	_glriflemag_tr = "30Rnd_556x45_Stanag_Tracer_Red";
+	_glriflemag_tr = "rhs_30Rnd_762x39mm";
 	_glmag = "rhs_VOG25";
 	
 	// Granaty dymne do granatnika
@@ -145,7 +145,7 @@
 	_pistolmag = "rhs_mag_9x18_12_57N181S";
 	
 	// Granaty ręczne
-	_grenade = "HandGrenade";
+	_grenade = "CUP_HandGrenade_RGD5";
 	_mgrenade = "ACE_M84";
 	_smokegrenade = "SmokeShell";
 	_smokegrenadegreen = "SmokeShellGreen";
@@ -203,9 +203,9 @@
 	_bagMm = "usm_pack_m5_medic";				// Plecak dla medyka (średni)
 	_bagMb = "usm_pack_m5_medic";       		// Plecak dla medyka (duży)
 	
-	_bagARs = "B_TacticalPack_oli";			// Plecak dla RKM (mały)
-	_bagARm = "B_TacticalPack_oli";				// Plecak dla RKM (średni)
-	_bagARb = "B_TacticalPack_oli";             // Plecak dla RKM (duży)
+	_bagARs = "CUP_B_CivPack_WDL";			// Plecak dla RKM (mały)
+	_bagARm = "CUP_B_AlicePack_Khaki";				// Plecak dla RKM (średni)
+	_bagARb = "B_Carryall_cbr";             // Plecak dla RKM (duży)
 	
 	_bagENG = "B_TacticalPack_blk";					// Plecak dla Mechanika
 	
@@ -220,8 +220,8 @@
 	
 	_baguav = "tf_anprc155_coyote";		// Plecak RTO
 	
-	_baghmgg = "CUP_B_M2_Gun_Bag";					// used by Heavy MG gunner
-	_baghmgag = "CUP_B_M2_MiniTripod_Bag";			// used by Heavy MG assistant gunner
+	_baghmgg = "RHS_DShkM_Gun_Bag";					// used by Heavy MG gunner
+	_baghmgag = "RHS_DShkM_TripodLow_Bag";			// used by Heavy MG assistant gunner
 	
 	_baghatg = "B_AT_01_weapon_F";					// used by Heavy AT gunner
 	_baghatag = "B_HMG_01_support_F";				// used by Heavy AT assistant gunner
@@ -245,26 +245,26 @@
 	_MMGmag_tr = "rhs_100Rnd_762x54mmR_green";
 	
 	// Strzelec wyborowy (broń DLC)
-	_DMrifle = "srifle_DMR_06_camo_F";
-	_DMriflemag = "20Rnd_762x51_Mag";
+	_DMrifle = "rhs_weap_svdp"";
+	_DMriflemag = "rhs_10Rnd_762x54mmR_7N1";
 	
 	// Strzelec AT
 	_RAT = "CUP_launch_RPG18";
 	_RATmag = "ACE_PreloadedMissileDummy_RPG18_CUP";
 	
 	// Strzelec MAT
-	_MAT = "PSZ_RPG7V";
-	_MATmag1 = "PSZ_PG7V_HEAT";
-	_MATmag2 = "PSZ_PG7VR_THEAT";
+	_MAT = "CUP_launch_RPG7V";
+	_MATmag1 = "CUP_PG7V_M";
+	_MATmag2 = "CUP_PG7VR_M";
 	
 	// Strzelec AA
 	_SAM = "CUP_launch_Igla";
 	_SAMmag = "CUP_Igla_M";
 	
 	// Strzelec HAT
-	//_HAT = "";
-	//_HATmag1 = "";
-	//_HATmag2 = "";
+	_HAT = "CUP_launch_M47";
+	_HATmag1 = "CUP_Dragon_EP1_M";
+	_HATmag2 = "CUP_Dragon_EP1_M";
 	
 	// Snajper
 	_SNrifle = "srifle_LRR_F";
@@ -328,9 +328,9 @@
 	_crewGlasses = [];
 	
 	// Ghillie
-	_ghillieUniform = ["U_B_GhillieSuit"]; //DLC alternatives: ["U_B_FullGhillie_lsh","U_B_FullGhillie_ard","U_B_FullGhillie_sard"];
+	_ghillieUniform = ["U_B_FullGhillie_ard"]; //DLC alternatives: ["U_B_FullGhillie_ard"];
 	_ghillieHelmet = [];
-	_ghillieRig = ["V_Chestrig_rgr"];
+	_ghillieRig = ["CUP_V_O_TK_Vest_2"];
 	_ghillieGlasses = [];
 	
 	// ====================================================================================
